@@ -1,20 +1,8 @@
-
-
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./components/home";
 import Login from "./components/Login";
-
-function Home() {
-  return (
-    <div className="home-container">
-      <h1>Welcome to Unipatnpx</h1>
-      <p>Your path to SAT & AP success.</p>
-      <Link to="/login">
-        <button>Go to Login</button>
-      </Link>
-    </div>
-  );
-}
+import "./App.css";
 
 function App() {
   return (
@@ -28,3 +16,4 @@ function App() {
 }
 
 export default App;
+
