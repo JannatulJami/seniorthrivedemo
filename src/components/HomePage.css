@@ -1,0 +1,78 @@
+.phone-frame {
+  width: 340px;
+  height: 640px;
+  margin: 40px auto;
+  border-radius: 30px;
+  background: #fff8f0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.home-title {
+  font-family: "Poppins", sans-serif;
+  color: #5c3d2e;
+  font-size: 1.8rem;
+  margin-top: 20px;
+}
+
+.search-bar {
+  position: relative;
+  margin: 15px auto 25px;
+  width: 90%;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px 35px 10px 10px;
+  border-radius: 12px;
+  border: 1px solid #d8b99c;
+  background: #fefaf6;
+  font-family: "Poppins", sans-serif;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #c8a27e;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.home-btn {
+  background: white;
+  border: 1px solid #d8b99c;
+  border-radius: 12px;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  color: #5c3d2e;
+  transition: 0.3s;
+}
+
+.home-btn:hover {
+  background: #f4e3d3;
+}
+
+.footer {
+  background: #b68b5f;
+  padding: 10px;
+  border-radius: 0 0 30px 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,92 @@
+.scholarship-page {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 15px;
+  font-family: "Helvetica Neue", sans-serif;
+  background: #fffaf0;
+  color: #333;
+  min-height: 100vh;
+}
+
+.scholarship-header {
+  text-align: center;
+  background: #ffe6cc;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.bunny-logo {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+.scholarship-title {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.scholarship-intro {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Resources Section */
+.scholarship-resources {
+  background: #fff5e6;
+  padding: 12px 15px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.scholarship-resources h3 {
+  margin-top: 0;
+}
+
+.scholarship-resources ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.scholarship-resources li {
+  margin: 5px 0;
+}
+
+.scholarship-resources a {
+  color: #d9732c;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.scholarship-resources a:hover {
+  text-decoration: underline;
+}
+
+/* Tips Section */
+.scholarship-tips {
+  background: #fff5e6;
+  padding: 12px 15px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.scholarship-tips ul {
+  padding-left: 18px;
+  margin: 5px 0 0 0;
+}
+
+/* FAQ Section */
+.scholarship-faq {
+  background: #fff5e6;
+  padding: 12px 15px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.scholarship-faq p {
+  margin: 5px 0;
+}

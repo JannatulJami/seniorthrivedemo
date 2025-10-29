@@ -1,0 +1,129 @@
+.forum-page {
+  max-width: 400px; /* mobile width */
+  margin: 0 auto;
+  padding: 15px;
+  font-family: "Helvetica Neue", sans-serif;
+  background: #fffaf0; /* soft cream background */
+  color: #333;
+  min-height: 100vh;
+}
+
+.forum-header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.bunny-logo {
+  font-size: 2.5rem;
+}
+
+.intro-text {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 5px;
+}
+
+.advice-section {
+  background: #fff5e6;
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  font-size: 0.85rem;
+}
+
+.advice-section ul {
+  padding-left: 18px;
+  margin: 5px 0 0 0;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: #ffe0b3;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
+  padding: 5px;
+  font-size: 0.9rem;
+}
+
+.search-icon {
+  margin-right: 5px;
+  color: #333;
+}
+
+.forum-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.forum-form input,
+.forum-form textarea {
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #ffd9b3;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+.forum-form textarea {
+  min-height: 80px;
+  resize: none;
+}
+
+.forum-form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background-color: #ffd9b3;
+  color: #333;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.forum-form button:hover {
+  background-color: #ffcc99;
+}
+
+.essay-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.essay-card {
+  background: #fff7eb;
+  padding: 12px;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.07);
+}
+
+.essay-card h3 {
+  margin: 0 0 5px 0;
+}
+
+.author {
+  font-style: italic;
+  color: #a07c5c;
+  margin-bottom: 8px;
+  font-size: 0.8rem;
+}
+
+.essay-card p {
+  font-size: 0.9rem;
+  line-height: 1.3;
+}

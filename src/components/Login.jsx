@@ -1,46 +1,56 @@
-
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./LoginPage.css";
 
-export default function LoginPage({ onLogin }) {
-  const [username, setUsername] = useState("");
+function Login() {
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+  const navigate = useNavigate();
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (username && password) {
-      onLogin(); // move to home page
-    } else {
-      alert("Please enter both fields!");
+
+    if (email.trim() === "" || password.trim() === "") {
+      setError("Please enter both email and password.");
+      return;
     }
+
+    // Allow any email/password to log in
+    localStorage.setItem("loggedInUser", email);
+    navigate("/HomePage");
   };
 
   return (
     <div className="mobile-container login-page">
-      <div className="bunny">
-        🐰
-      </div>
-
-      <h1 className="title">UniPath</h1>
+      <div className="bunny">🐰</div>
+      <h2 className="title">Welcome Back!</h2>
 
       <form onSubmit={handleLogin}>
         <input
-          type="text"
-          placeholder="Username"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
+          type="email"
+          placeholder="Email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          required
         />
         <input
           type="password"
           placeholder="Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
+          required
         />
-
-        <button type="submit" className="login-btn">Login</button>
+        <button className="login-btn" type="submit">
+          Log In
+        </button>
       </form>
 
-      <p className="create-account">Create Account</p>
+      {error && <p className="error">{error}</p>}
+
+      <p className="create-account">Don’t have an account? Sign up</p>
     </div>
   );
 }
+
+export default Login;

@@ -10,7 +10,8 @@ function Home() {
         alt="Bunny Logo"
         className="bunny-logo"
       />
-      <h1 className="app-name">Unipatnpx</h1>
+      <h1 className="app-name">UniPath</h1>
+      <p>By Jannatul Jami, Sarika Ibnat, Betsy Sumba, and Jerelyn Isles</p>
       <Link to="/login">
         <button className="login-btn">Get Started</button>
       </Link>
