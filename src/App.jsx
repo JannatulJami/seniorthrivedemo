@@ -8,6 +8,7 @@ import EssayForum from "./components/EssayForum";
 import APPage from "./components/APPage";
 import "./App.css";
 import ScholarshipPage from "./components/ScholarshipPage";
+import CollegeEssayVideos from "./components/CollegeEssayVideos";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         <Route path="/essay-forum" element={<EssayForum />} />
         <Route path="/APPage" element={<APPage />} />
         <Route path="/ScholarshipPage" element={<ScholarshipPage />} />
-
+        <Route path="/college-videos" element={<CollegeEssayVideos />} />
       </Routes>
     </Router>
   );

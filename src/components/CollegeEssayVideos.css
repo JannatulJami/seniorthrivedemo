@@ -1,0 +1,82 @@
+.college-videos-page {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 15px;
+  background: #fffaf0;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #333;
+  min-height: 100vh;
+}
+
+.videos-header {
+  text-align: center;
+  background: #ffe6cc;
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.bunny-logo {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.videos-header h1 {
+  font-size: 1.6rem;
+  margin: 5px 0;
+}
+
+.videos-header p {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.videos-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.video-card {
+  background: #fff5e6;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.video-card:hover {
+  transform: scale(1.02);
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #ffe0b3;
+}
+
+.video-info {
+  padding: 10px 12px;
+}
+
+.video-info h3 {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.channel-name {
+  font-size: 0.85rem;
+  color: #d9732c;
+  font-weight: 600;
+  margin: 2px 0;
+}
+
+.video-desc {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 4px;
+  line-height: 1.3;
+}

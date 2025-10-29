@@ -12,7 +12,7 @@ function HomePage() {
     { name: "FAFSA" },
     { name: "Scholarship", path:"/ScholarshipPage" },
     { name: "SAT Support" },
-    { name: "ACT Support" },
+    { name: "College Essay Videos", path: "/college-essay-videos" },
     { name: "Recommendation Requests" },
     { name: "College Essay", path: "/college-essay" },
     { name: "College Essay Forum", path: "/essay-forum" },
