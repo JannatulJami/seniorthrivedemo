@@ -1,6 +1,53 @@
 import React from "react";
 import "./CollegeEssayVideos.css";
 
+const CollegeEssayVideos = () => {
+  const videos = [
+    {
+      title: "How I Got Into Harvard (Stats & Essay Tips)",
+      url: "https://www.youtube.com/watch?v=abcd1234",
+    },
+    {
+      title: "Columbia University Essay Breakdown",
+      url: "https://www.youtube.com/watch?v=efgh5678",
+    },
+    {
+      title: "Ivy League Essays That Worked",
+      url: "https://www.youtube.com/watch?v=ijkl9012",
+    },
+  ];
+
+  return (
+    <div className="videos-page">
+      <h1 className="videos-title">College Essay Videos 🎓</h1>
+      <p className="videos-description">
+        Watch real students share their college essay stories and stats.  
+        Click any link below to open the YouTube video in a new tab!
+      </p>
+
+      <div className="videos-list">
+        {videos.map((video, index) => (
+          <div key={index} className="video-card">
+            <h3>{video.title}</h3>
+            <a href={video.url} target="_blank" rel="noopener noreferrer">
+              Watch on YouTube →
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default CollegeEssayVideos;
+
+
+
+/*
+
+import React from "react";
+import "./CollegeEssayVideos.css";
+
 function CollegeEssayVideos() {
   const videos = [
     {
@@ -76,3 +123,4 @@ function CollegeEssayVideos() {
 }
 
 export default CollegeEssayVideos;
+*/

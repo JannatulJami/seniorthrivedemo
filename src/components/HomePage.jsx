@@ -37,6 +37,7 @@ function HomePage() {
           <input type="text" placeholder="Search..." />
           <FaSearch className="search-icon" />
         </div>
+        <h2>🐰</h2>
 
         <div className="button-grid">
           {buttons.map((btn, index) => (

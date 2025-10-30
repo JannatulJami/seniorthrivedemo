@@ -5,11 +5,7 @@ import "./Home.css";
 function Home() {
   return (
     <div className="home-container">
-      <img
-        src="/bunny.png"
-        alt="Bunny Logo"
-        className="bunny-logo"
-      />
+      <h2>🐰</h2>
       <h1 className="app-name">UniPath</h1>
       <p>By Jannatul Jami, Sarika Ibnat, Betsy Sumba, and Jerelyn Isles</p>
       <Link to="/login">

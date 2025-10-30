@@ -1,8 +1,9 @@
+
 .scholarship-page {
   max-width: 400px;
   margin: 0 auto;
   padding: 15px;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Poppins", sans-serif;
   background: #fffaf0;
   color: #333;
   min-height: 100vh;
@@ -33,7 +34,7 @@
   margin: 0;
 }
 
-/* Resources Section */
+
 .scholarship-resources {
   background: #fff5e6;
   padding: 12px 15px;
@@ -66,7 +67,7 @@
   text-decoration: underline;
 }
 
-/* Tips Section */
+
 .scholarship-tips {
   background: #fff5e6;
   padding: 12px 15px;
@@ -79,7 +80,7 @@
   margin: 5px 0 0 0;
 }
 
-/* FAQ Section */
+
 .scholarship-faq {
   background: #fff5e6;
   padding: 12px 15px;

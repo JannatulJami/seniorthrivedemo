@@ -21,7 +21,7 @@ function App() {
         <Route path="/essay-forum" element={<EssayForum />} />
         <Route path="/APPage" element={<APPage />} />
         <Route path="/ScholarshipPage" element={<ScholarshipPage />} />
-        <Route path="/college-videos" element={<CollegeEssayVideos />} />
+        <Route path="/college-essay-videos" element={<CollegeEssayVideos />} />
       </Routes>
     </Router>
   );
